@@ -11,6 +11,7 @@ namespace ListViewExample.ViewModels
 
         public ObservableCollection<Credit> Collection { get; set; }
         public ICommand AddCreditCommand { get;set;}
+        public ICommand DeleteCreditCommand { get; set; }
         public MainViewModel()
         {
 
@@ -22,7 +23,14 @@ namespace ListViewExample.ViewModels
         {
             Credit c1 = new Credit() {  Name="Credit card", Number="1234567" };
             AddCreditCommand = new Command(()=> OnAddCreditCommand());
+            DeleteCreditCommand = new Command<Credit>((Credit) => OnDeleteCreditCommand(Credit));
             Collection.Add(c1);
+        }
+
+        private void OnDeleteCreditCommand(Credit credit)
+        {
+            var c = credit;
+            Collection.Remove(c);
         }
 
         private void OnAddCreditCommand()

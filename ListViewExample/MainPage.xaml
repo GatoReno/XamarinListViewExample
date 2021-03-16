@@ -2,7 +2,8 @@
 <ContentPage
     x:Class="ListViewExample.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Name="this">
 
     <StackLayout>
         <Frame
@@ -25,7 +26,17 @@
             ItemsSource="{Binding Collection}">
             <ListView.ItemTemplate>
                 <DataTemplate>
+
                     <ViewCell>
+                        <ViewCell.ContextActions>
+
+                            <MenuItem
+                                Command="{Binding Source={x:Reference this}, Path=BindingContext.DeleteCreditCommand}"
+                                CommandParameter="{Binding .}"
+                                IsDestructive="True"
+                                Text="Delete" />
+                        </ViewCell.ContextActions>
+
                         <StackLayout Orientation="Vertical">
                             <Label Text="{Binding Name}" />
                             <Label Text="{Binding Number}" />
