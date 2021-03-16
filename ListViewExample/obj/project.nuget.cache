@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gr0EzLvUJvlZoOhsZBkmRcfEN/ZqmSM2iTPnX6LwrDX95lys5vuh8xrP5QJP1nm0xMcf5QqlSKw180q6EezLqA==",
+  "success": true,
+  "projectFilePath": "/Users/edrodriguez/projects/ListViewExample/ListViewExample/ListViewExample.csproj",
+  "expectedPackageFiles": [
+    "/Users/edrodriguez/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/edrodriguez/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/edrodriguez/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/edrodriguez/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/edrodriguez/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
