@@ -16,15 +16,16 @@ namespace ListViewExample.ViewModels
         {
 
             Collection = new ObservableCollection<Credit>();
+            AddCreditCommand = new Command(() => OnAddCreditCommand());
+            DeleteCreditCommand = new Command<Credit>((Credit) => OnDeleteCreditCommand(Credit));
+
             LoadCollection();
         }
 
         public void LoadCollection()
         {
             Credit c1 = new Credit() {  Name="Credit card", Number="1234567" };
-            AddCreditCommand = new Command(()=> OnAddCreditCommand());
-            DeleteCreditCommand = new Command<Credit>((Credit) => OnDeleteCreditCommand(Credit));
-            Collection.Add(c1);
+                       Collection.Add(c1);
         }
 
         private void OnDeleteCreditCommand(Credit credit)

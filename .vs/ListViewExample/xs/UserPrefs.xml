@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{91647DCA-6F57-4832-9CB0-4AF8AE077D21}|Default">
   <MonoDevelop.Ide.ItemProperties.ListViewExample.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4DE85FD-1D12-47E9-A617-DE6112D9EBF7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewExample/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewExample/ViewModels/MainViewModel.cs">
     <Files>
-      <File FileName="ListViewExample/MainPage.xaml" Line="35" Column="1" />
-      <File FileName="ListViewExample/ViewModels/MainViewModel.cs" Line="10" Column="43" />
+      <File FileName="ListViewExample/MainPage.xaml" Line="35" Column="60" />
+      <File FileName="ListViewExample/ViewModels/MainViewModel.cs" Line="22" Column="12" />
       <File FileName="ListViewExample/Models/Payments.cs" Line="1" Column="1" />
       <File FileName="ListViewExample/Models/Credtis.cs" Line="4" Column="24" />
-      <File FileName="ListViewExample/MainPage.xaml.cs" Line="16" Column="27" />
+      <File FileName="ListViewExample/MainPage.xaml.cs" Line="26" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,17 +14,17 @@
           <Node name="ListViewExample" expanded="True">
             <Node name="ListViewExample" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="MainViewModel.cs" selected="True" />
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ListViewExample.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.ListViewExample.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_3a_q_10_0_-_api_29" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
