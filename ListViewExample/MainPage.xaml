@@ -16,10 +16,12 @@
                 TextColor="White" />
         </Frame>
         <Label Text="List Views" />
+        <Button Command="{Binding AddCreditCommand}" Text="Add" />
 
         <ListView
             BackgroundColor="Pink"
             HasUnevenRows="True"
+            ItemTapped="ListView_ItemTapped"
             ItemsSource="{Binding Collection}">
             <ListView.ItemTemplate>
                 <DataTemplate>
