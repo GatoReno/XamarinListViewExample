@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ListViewExample.ViewModels;
 using Xamarin.Forms;
 
 namespace ListViewExample
@@ -13,6 +14,7 @@ namespace ListViewExample
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
         }
     }
 }
