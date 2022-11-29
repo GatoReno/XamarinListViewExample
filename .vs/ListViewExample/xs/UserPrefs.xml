@@ -1,22 +1,34 @@
-﻿<Properties StartupConfiguration="{91647DCA-6F57-4832-9CB0-4AF8AE077D21}|Default">
-  <MonoDevelop.Ide.ItemProperties.ListViewExample.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4DE85FD-1D12-47E9-A617-DE6112D9EBF7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewExample/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{5F085C9F-7B7C-49D7-82D5-5E2260E9D44F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ListViewExample.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewExample/App.xaml.cs">
     <Files>
-      <File FileName="ListViewExample/MainPage.xaml" Line="35" Column="1" />
-      <File FileName="ListViewExample/ViewModels/MainViewModel.cs" Line="10" Column="43" />
-      <File FileName="ListViewExample/Models/Payments.cs" Line="1" Column="1" />
-      <File FileName="ListViewExample/Models/Credtis.cs" Line="4" Column="24" />
-      <File FileName="ListViewExample/MainPage.xaml.cs" Line="16" Column="27" />
+      <File FileName="ListViewExample/MainPage.xaml" Line="41" Column="1" />
+      <File FileName="ListViewExample/ViewModels/MainViewModel.cs" Line="23" Column="32" />
+      <File FileName="ListViewExample.Android/Resources/values/styles.xml" Line="14" Column="55" />
+      <File FileName="ListViewExample.Android/Resources/values/colors.xml" Line="10" Column="13" />
+      <File FileName="../../.nuget/packages/xamarin.essentials/1.7.3/readme.txt" Line="1" Column="1" />
+      <File FileName="ListViewExample/App.xaml.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ListViewExample" expanded="True">
             <Node name="ListViewExample" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ListViewExample.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="values" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -24,11 +36,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ListViewExample.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.ListViewExample.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.pixel_4_-_api_33" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_4_-_api_33" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>

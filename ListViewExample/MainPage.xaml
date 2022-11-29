@@ -15,23 +15,38 @@
                 Text="ListView in Xamarin.Forms!"
                 TextColor="White" />
         </Frame>
-        <Label Text="List Views" />
+        <StackLayout
+            Padding="20"
+            >
+            <Label Text="List Views" />
 
-        <ListView
-            BackgroundColor="Pink"
-            HasUnevenRows="True"
+        <CollectionView
+             
             ItemsSource="{Binding Collection}">
-            <ListView.ItemTemplate>
+            <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Orientation="Vertical">
+                    
+                        <StackLayout
+                                Padding="4"
+                                Orientation="Vertical">
+                            <!--<VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup Name="CommonStates">                        
+                                    <VisualState Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="White" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>-->
                             <Label Text="{Binding Name}" />
                             <Label Text="{Binding Number}" />
                         </StackLayout>
-                    </ViewCell>
+                   
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        </StackLayout>
 
     </StackLayout>
 

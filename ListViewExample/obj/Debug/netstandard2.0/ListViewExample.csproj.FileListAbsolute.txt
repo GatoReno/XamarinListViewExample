@@ -12,3 +12,17 @@
 /Users/edrodriguez/projects/ListViewExample/ListViewExample/bin/Debug/netstandard2.0/ref/ListViewExample.dll
 /Users/edrodriguez/projects/ListViewExample/ListViewExample/bin/Debug/netstandard2.0/ListViewExample.pdb
 /Users/edrodriguez/projects/ListViewExample/ListViewExample/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/bin/Debug/netstandard2.0/ListViewExample.deps.json
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/bin/Debug/netstandard2.0/ListViewExample.dll
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/bin/Debug/netstandard2.0/ref/ListViewExample.dll
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/bin/Debug/netstandard2.0/ListViewExample.pdb
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.csproj.AssemblyReference.cache
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.AssemblyInfoInputs.cache
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.AssemblyInfo.cs
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.csproj.CoreCompileInputs.cache
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.dll
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ref/ListViewExample.dll
+/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/obj/Debug/netstandard2.0/ListViewExample.pdb

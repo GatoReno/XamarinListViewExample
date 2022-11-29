@@ -750,10 +750,14 @@
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3"
         },
         "compile": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/4.8.0.1451": {
@@ -766,18 +770,38 @@
           "Xamarin.Android.Support.v7.CardView": "28.0.0.3"
         },
         "compile": {
-          "lib/MonoAndroid90/FormsViewGroup.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid90/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/MonoAndroid90/FormsViewGroup.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid90/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
@@ -788,8 +812,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Essentials": "1.7.3",
+          "Xamarin.Forms": "5.0.0.2515"
         },
         "compile": {
           "bin/placeholder/ListViewExample.dll": {}
@@ -1933,33 +1957,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/edrodriguez/.nuget/packages/": {}
+    "/Users/eduardorodriguez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edrodriguez/projects/ListViewExample/ListViewExample.Android/ListViewExample.Android.csproj",
+      "projectUniqueName": "/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample.Android/ListViewExample.Android.csproj",
       "projectName": "ListViewExample.Android",
-      "projectPath": "/Users/edrodriguez/projects/ListViewExample/ListViewExample.Android/ListViewExample.Android.csproj",
-      "packagesPath": "/Users/edrodriguez/.nuget/packages/",
-      "outputPath": "/Users/edrodriguez/projects/ListViewExample/ListViewExample.Android/obj/",
+      "projectPath": "/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample.Android/ListViewExample.Android.csproj",
+      "packagesPath": "/Users/eduardorodriguez/.nuget/packages/",
+      "outputPath": "/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/edrodriguez/.config/NuGet/NuGet.Config"
+        "/Users/eduardorodriguez/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "/Users/edrodriguez/localpkgcharter": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/edrodriguez/projects/ListViewExample/ListViewExample/ListViewExample.csproj": {
-              "projectPath": "/Users/edrodriguez/projects/ListViewExample/ListViewExample/ListViewExample.csproj"
+            "/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/ListViewExample.csproj": {
+              "projectPath": "/Users/eduardorodriguez/Desktop/XamarinListViewExample/ListViewExample/ListViewExample.csproj"
             }
           }
         }
@@ -1979,5 +2002,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.5.3.2. Reference the package directly from the project to select a different version. \n ListViewExample.Android -> ListViewExample -> Xamarin.Essentials (>= 1.7.3) \n ListViewExample.Android -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2515 to 4.8.0.1451. Reference the package directly from the project to select a different version. \n ListViewExample.Android -> ListViewExample -> Xamarin.Forms (>= 5.0.0.2515) \n ListViewExample.Android -> Xamarin.Forms (>= 4.8.0.1451)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

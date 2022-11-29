@@ -17,7 +17,9 @@ namespace ListViewExample.ViewModels
 
         public void LoadCollection()
         {
-            Credit c1 = new Credit() {  Name="Credit card", Number="1234567" };
+            Credit c1 = new Credit() {  Name="Credit card", Number="1234567" };            
+            Collection.Add(c1);
+            c1.Name = "AMEX";c1.Number = "92837132";
             Collection.Add(c1);
 
         }
